@@ -17,7 +17,6 @@ This project involves the modeling and simulation of a fixed-wing unmanned aeria
 
 ## 📂 Project Structure
 
-
 ## 📝 Key Features
 
 - Comparison between MATLAB function-based and native Simulink model architectures  
@@ -27,10 +26,11 @@ This project involves the modeling and simulation of a fixed-wing unmanned aeria
 
 ## ⚙️ How to Run
 
-1. Open `uav_model.slx` in MATLAB Simulink.
-2. Connect Simulink to FlightGear if visualization is needed.
-3. Run the simulation and observe UAV behavior.
-4. Use `uav_dynamics.m` to compare MATLAB-script-based dynamics.
+1. Open `simulinkmodel.slx` in MATLAB Simulink. (Only Simulink model)
+2. Open `simulinkmodel_function.slx` in MATLAB Simulink. (Simulin model built with MATLAB function Block from `EOMs_of_AC.m` )
+3. Open `constants_simulinkmodel` in MATLAB and run.
+4. Connect Simulink to FlightGear if visualization is needed.
+5. Run the simulation and observe UAV behavior.
 
 ## 👨‍💻 Author
 
